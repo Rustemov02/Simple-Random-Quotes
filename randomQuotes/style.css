@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+ 
+.title{
+  box-shadow: 0 20px 20px 10px  rgb(167, 33, 33);
+  padding: 12px 20px;
+  margin: auto;
+  height: 300px;
+  width: 1250px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+#quotes{
+  font-size: 35px;
+  font-family: 'Reem Kufi Ink' , sans-serif;
+}
+#author{
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Roboto Mono' , sans-serif;
+}
+button{
+  width:240px;
+  height: 60px;
+  margin-top: 100px; 
+  margin-left: 600px;
+  cursor: pointer;
+  font-size: 25px;
+  background: rgb(47, 34, 41);
+  color: white;
+  border-radius: 12px;
+  text-shadow: 1px 8px 13x white;
+}
+button:hover{
+  box-shadow: 0px 8px 20px 5px rgb(167, 33, 33);
+  background-color: rgb(167, 33, 33); 
+  transition:1s;
+  color: #fff;
+  text-shadow: 1px 8px 13x white;
+}
